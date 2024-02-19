@@ -8,6 +8,10 @@ This repository contains various notebooks experimenting with using Stable Diffu
 
     - An example generated video can be found [here](https://vimeo.com/914370372?share=copy).
 
+2. **abstract_diffusion.ipynb**: This notebook prompts the user for a description of their mood and generates an abstract image based on this input using just a few inference steps.
+
+   - **index.html** and **style.css** create a webpage to display the generated images along with an embedded song that reflects each mood, which can be found [here](https://jacquelinegrimm.github.io/experiments-in-diffusion/).
+
 ## Running Notebooks
 
-Make sure to use a GPU-enabled runtime. You can allocate a GPU on Colab by selecting "Change runtime type" under the "Runtime" menu.
+Before running these notebooks on Colab, allocate a GPU by selecting "Change runtime type" under the "Runtime" menu.
